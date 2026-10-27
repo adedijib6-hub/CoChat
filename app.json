@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "CoChat",
+    "slug": "cochat",
+    "scheme": "cochat",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "backgroundColor": "#E7F2E8" } },
+    "web": { "bundler": "metro" },
+    "plugins": ["expo-router", ["expo-image-picker", { "photosPermission": "CoChat uses your photo library to share photos in local conversations." }]],
+    "experiments": { "typedRoutes": true }
+  }
+}
